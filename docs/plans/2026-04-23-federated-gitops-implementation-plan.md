@@ -589,7 +589,7 @@ spec:
       sources:
         - repoURL: us-docker.pkg.dev/solo-public/enterprise-agentgateway/charts
           chart: enterprise-agentgateway-crds
-          targetRevision: v2.3.0
+          targetRevision: v2026.5.0
           helm:
             valueFiles:
               - $values/helm-apps/enterprise-agentgateway/crds-values.yaml
