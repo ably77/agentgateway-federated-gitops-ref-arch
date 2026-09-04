@@ -2515,7 +2515,7 @@ metadata:
   namespace: wgu-demo-frontend
 spec:
   hostnames:
-  - "enroll.glootest.com"
+  - "enroll.try-solo.io"
   parentRefs:
   - name: ingress
     namespace: agentgateway-system
@@ -2535,7 +2535,7 @@ metadata:
   namespace: monitoring
 spec:
   hostnames:
-  - "grafana.glootest.com"
+  - "grafana.try-solo.io"
   parentRefs:
   - name: ingress
     namespace: agentgateway-system
